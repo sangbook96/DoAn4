@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project4</string>
+    <string name="btSignIn">Đăng Nhập</string>
+    <string name="btSignUp">Đăng Ký</string>
+    <string name="forgetPass">Quên Mật khẩu?</string>
+    <string name="username">Tài khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="enter_the_pass">NL Mật khẩu </string>
+    <string name="SDT">Số điện thoại</string>
+    <string name="iconDangKy">Đăng Ký</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Tab1</string>
+</resources>

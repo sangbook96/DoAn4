@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Img">
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Txt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Edt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/b_edt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="TxtItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="btsign_In">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@string/btSignIn</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/b</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="btsign_up">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@string/btSignUp</item>
+        <item name="android:background">@drawable/b</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="TxtQuenMatKhau">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <FrameLayout
+        android:id="@+id/logodangki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/iconDangKy"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/thongtinDK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logodangki"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Txt"
+                android:text="@string/username" />
+
+            <EditText style="@style/Edt"
+                android:id="@+id/edt_UserName_DK"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Txt"
+                android:text="@string/password" />
+
+            <EditText
+                style="@style/Edt"
+                android:inputType="textPassword"
+                android:id="@+id/edt_Password_DK"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Txt"
+                android:text="@string/enter_the_pass" />
+
+            <EditText
+                style="@style/Edt"
+                android:inputType="textPassword"
+                android:id="@+id/edt_Password_DK_config"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Txt"
+                android:text="@string/email" />
+
+            <EditText
+                style="@style/Edt"
+                android:inputType="textEmailAddress"
+                android:id="@+id/edt_Email"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:weightSum="3">
+
+            <TextView
+                style="@style/Txt"
+                android:text="@string/SDT" />
+
+            <EditText
+                style="@style/Edt"
+                android:id="@+id/edt_SDT"
+                android:inputType="phone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thongtinDK">
+
+        <Button
+            android:id="@+id/btSign_Up"
+            style="@style/btsign_up"
+            android:clickable="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</RelativeLayout>
